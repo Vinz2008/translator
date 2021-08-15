@@ -17,6 +17,6 @@ while True:
 	elif event ==  "Translate":
 		input = values["-INPUT-"]
 		translation = translator.translate(input)
-		window[-OUTPUT-](translation)
+		window["-OUTPUT-"](translation)
 
 window.close()
